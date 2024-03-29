@@ -1,3 +1,4 @@
+
 import PokemonCard from "./components/PokemonCard";
 function App ({pokemon}) {
     
@@ -16,3 +17,4 @@ const pokemonList = [
       name: "mew",
     },
   ];
+  
