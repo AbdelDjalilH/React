@@ -4,7 +4,7 @@ function PokemonCard({pokemon}) {
    
   return (
     <figure>
-      {pokemon.name === "bulbasaur" ? (
+      {pokemon.imgSrc!=null ? (
         <img src={pokemon.imgSrc} alt={pokemon.name} />
       ) : (
         
